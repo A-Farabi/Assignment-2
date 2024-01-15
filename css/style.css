@@ -7,9 +7,9 @@
     width: 81.25%;
     margin: 0 auto;
 }
-li{
+/* li{
     list-style: none;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -23,11 +23,17 @@ a{
     text-decoration: none; 
 }
 .primary-para{
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1em;
     font-weight: 400;
     line-height: 26px;
+}
+.primary-title h1{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+.sectional-gap{
+    margin-top: 4em;
 }
 
 /* header starts here */
@@ -53,6 +59,7 @@ header{
 }
 .navbar-controller ul li{
     padding-right: 4em;
+    list-style: none;
 }
 .navbar-controller li a{
     color: var(--Dark-02, #424247);
@@ -82,7 +89,7 @@ header{
     background: black;
     left: 0;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.4;
     border-radius: 16px;
 }
 .banner-content{
@@ -121,4 +128,26 @@ header{
 .input-controller select{
     padding: 10%;
     outline: none;
+}
+
+/* popular starts here */
+.popular-controller{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 29em; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.popular-text{
+    width: 50%;
+}
+.middle-text{
+    padding: 1.5em 0em;
+}
+.middle-text li{
+    padding: 1em 0em;
+}
+.last-text{
+    margin-bottom: 2em;
 }
