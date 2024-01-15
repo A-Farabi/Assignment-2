@@ -13,6 +13,22 @@ li{
 a{
     text-decoration: none;
 }
+.primary-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    text-decoration: none; 
+}
+.primary-para{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 /* header starts here */
 header{
@@ -46,4 +62,63 @@ header{
 }
 .navbar-controller ul li:last-child{
     padding-right: 0em;
+}
+
+/* banner starts here */
+.banner-controller{
+    background: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    border-radius: 16px;
+}
+.banner-controller::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+    border-radius: 16px;
+}
+.banner-content{
+    text-align: center;
+    padding: 105px 0px;
+    width: 75%; /* 85% calculattion */
+    margin: 0 auto;
+}
+.banner-content h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content p{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+/* input section.................... */
+.input-section{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.input-controller{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2% 0%;
+}
+.primary-btn i{
+    margin-right: .5em;
+}
+.input-controller input{
+    padding: 8%;
+    outline: none;
+}
+.input-controller select{
+    padding: 10%;
+    outline: none;
 }
