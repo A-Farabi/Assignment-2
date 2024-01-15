@@ -135,9 +135,6 @@ header{
 
 /* popular starts here */
 .popular-controller{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 29em; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -276,4 +273,15 @@ header{
 }
 .single-content{
     padding: 2em;
+}
+
+/* perfect place starts here */
+.perfect-place-controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6em;
+}
+.perfect-video video{
+    width: 100%;
 }
