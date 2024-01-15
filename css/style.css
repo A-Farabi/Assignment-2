@@ -22,6 +22,9 @@ a{
     padding: 15px 30px;
     text-decoration: none; 
 }
+.primary-title{
+    text-align: center;
+}
 .primary-para{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1em;
@@ -30,7 +33,7 @@ a{
 }
 .primary-title h1{
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 .sectional-gap{
     margin-top: 4em;
@@ -150,4 +153,96 @@ header{
 }
 .last-text{
     margin-bottom: 2em;
+}
+
+/* choose destination starts here */
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7{
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-1 h1{
+    text-align: center;
+}
+.image-controller{
+    margin-top: 3rem;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.bg-1{
+    background: url(../Images/maldives.png);
+    width: calc((100% - 48.93048128342246%));
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-2{
+    background: url(../Images/Indonesia.png);
+    width: calc((100% - 48.93048128342246%));
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-3{
+    background: url(../Images/Srilanka.png);
+    width: calc((100% - 66.66666666666666%));
+    height: 17.875rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-4{
+    background: url(../Images/North-america.png);
+    width: calc((100% - 57.75401069518716%));
+    height: 17.875rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-5{
+    background: url(../Images/kashmir.png);
+    width: calc((100% - 75.57932263814617%));
+    height: 17.875rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-6{
+    background: url(../Images/Bnagladesh.png);
+    width: calc((100% - 57.84313725490197%));
+    height: 18.75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-7{
+    background: url(../Images/Bandarban.png);
+    width: calc((100% - 40.017825311942964%));
+    height: 18.75rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
