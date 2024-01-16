@@ -340,7 +340,7 @@ header{
     background: rgba(19, 19, 24, 0.05);
 }
 .footer-content{
-    padding: 6.875em;
+    padding: 6.875em 0em;
     text-align: center;
 }
 .footer-content .logo-side{
@@ -364,6 +364,35 @@ header{
     padding-right: 0em;
 }
 .footer-content p:last-child{
-    margin-top: 3.125em;
+    /* margin-top: 3.125em; */
     margin-bottom: 0em;
+}
+
+/* unique section starts here */
+.unique-controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% - 23.5%));
+    margin: 0 auto;
+}
+.app-side, .payment-side{
+    width: 35.438rem;
+}
+
+.payment-side img{
+    width: 100%;
+}
+.app-side img{
+    width: 100%;
+}
+.app-side{
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.payment-side{
+    text-align: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
