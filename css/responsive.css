@@ -1,0 +1,35 @@
+/* media Query starts here
+........................................................
+*/
+@media screen and (max-width: 600px) {
+    /* banner............ */
+    .input-controller{
+        display: block;
+        padding: 1em 0em;
+        width: 15.938rem;
+        margin: 0 auto;
+        
+    }
+    .input-controller input{
+        /* width: 100%; */
+        width: 100%;
+        padding: 1.8em 0em;
+    }
+    .input-controller ::placeholder{
+        padding-left: 2em;
+    }
+    .input-controller select{
+        width: 100% !important;
+    }
+    .second-input{
+        margin: 1em 0em;
+    }
+    .primary-btn{
+        margin-top: 1em;
+        width: 100%;
+    }
+    
+
+
+
+}
