@@ -273,6 +273,86 @@ header{
     padding: 2em;
 }
 
+/* ........................... extra section .............................. */
+.extra-main{
+    width: 73.125rem;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2em;
+}
+.extra-main img{
+    width: 100%;
+}
+
+.extra-relative{
+    width: calc((100% - 50.51282051282051%));
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    right: 3.5em;
+    bottom: 3.5em;
+}
+.extra-relative-content{
+    padding: 3.125em 4.813em 3.125em 3.125em;
+    color: #5A5A5D;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.top-icon-controller{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    margin-bottom: 1.625em;
+}
+.others-icon{
+    display: flex;
+    gap: 1em;
+}
+.top-icon-controller i{
+    color: #FF5400;
+}
+.center-controller{
+    color: #131318;
+    font-weight: 800;
+}
+.center-controller h2{
+    color: #FF5400;
+    font-size: 1.25em;
+    font-weight: 800;
+    margin-bottom: 1.5em;
+}
+.center-controller p{
+    margin: 1em 0em;
+}
+
+/*..................... middle jhamela ................. */
+#extra-relative-middle{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.extra-relative-middle{
+    width: calc((100% - 50.51282051282051%));
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    left: 3.5em;
+    bottom: 3.5em;
+}
+#center-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+/* ..................................... end of middle jamela .................. */
+
+
 /* perfect place starts here */
 .perfect-place-controller{
     display: flex;
