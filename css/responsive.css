@@ -28,8 +28,79 @@
         margin-top: 1em;
         width: 100%;
     }
-    
-
+    /* popular tour */
+    .popular-controller{
+        display: block;
+    }
+    .popular-text{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .popular-image{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .popular-image img{
+        width: 100%;
+    }
+    /* choose section */
+    .row-1, .row-2, .row-3{
+        display: block;
+        margin-top: 0rem;
+    }
+    .bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    /* why us */
+    .primary-title{
+        width: 100%;
+    }
+    br{
+        display: none;
+    }
+    /* single content */
+    .single-content h3{
+        margin: 1em 0em;
+    }
+    /* perfect place */
+    .perfect-place-controller{
+        display: block;
+    }
+    .perfect-video{
+        margin-top: 1rem;
+    }
+    /* newsletter section */
+    .newsletter-controller{
+        display: block;
+    }
+    .newsletter-image{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .newsletter-image img{
+        width: 100%;
+    }
+    /* footer section */
+    .footer-content{
+        padding: 2rem;
+    }
+    .unique-controller{
+        display: block;
+    }
+    .app-side{
+        width: 100%;
+    }
+    .app-side img{
+        width: 100%;
+    }
+    .payment-side{
+        width: 100%;
+        margin-top: 1em;
+    }
+    .payment-side img{
+        width: 100%;
+    }
 
 
 }
