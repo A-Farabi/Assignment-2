@@ -164,11 +164,72 @@
 
 
 
+
+    /* hamburger menu */
+    /* .topnav a{
+        margin-bottom: 0px;
+    } */
+    .navbar-controller ul li a{
+        margin-top: 7px;
+        padding-right: 7px;
+    }
+    .navbar-controller ul{
+        padding-top: 20px;
+    }
+    .topnav a.icon{
+        display: block;
+    }
+    .navbar-controller ul{
+        display: block;
+        margin-top: 2.5em;
+
+    }
+    .navbar-controller #custom-nav ul{
+        display: none;
+    }
+    .navbar-controller li a{
+        text-align: right;
+    }
+    .navbar-controller ul li{
+        padding: 0em;
+        /* margin-right: 2em; */
+        /* text-align: right; */
+        background: rgb(255, 84, 0);
+        color: white;
+        border-radius: 3px;
+    }
+    .navbar-controller li a {
+        padding-right: 0px;
+        color: white;
+
+    }
+    .navbar-controller li a:hover{
+        color: #800080;
+        background-color: #333333;
+
+    }
+    /* .navbar-controller li a:first-child:active{
+        color: #FF5400;
+        background-color: #001f3f !important;
+    } */
+
+    #custom-nav{
+        display: none !important;
+    }
+
+
+
+
 }
 
 /* large device */
 @media screen and (min-width: 992px) and (max-width: 1470px){
-    
+    #custom-nav{
+        display: block !important;
+    }
+    #myLinks{
+        display: none !important;
+    }
     /* banner............ */
     .input-controller{
         display: block;
@@ -334,6 +395,12 @@
 
 /* for tablet */
 @media screen and (min-width: 600px) and (max-width: 991px) {
+    #custom-nav{
+        display: none !important;
+    }
+    #myLinks{
+        display: block;
+    }
     /* banner............ */
     .input-controller{
         display: block;
@@ -492,4 +559,50 @@
         .bottom-controller{
             display: none;
         }
+
+    /* hamburger menu */
+    /* .topnav a{
+        margin-bottom: 0px;
+    } */
+    .navbar-controller ul li a{
+        margin-top: 7px;
+        padding-right: 7px;
+    }
+    .navbar-controller ul{
+        padding-top: 20px;
+    }
+    .topnav a.icon{
+        display: block;
+    }
+    .navbar-controller ul{
+        display: block;
+        margin-top: 2.5em;
+
+    }
+    .navbar-controller li a{
+        text-align: right;
+    }
+    .navbar-controller ul li{
+        padding: 0em;
+        /* margin-right: 2em; */
+        /* text-align: right; */
+        background: rgb(255, 84, 0);
+        color: white;
+        border-radius: 3px;
+    }
+    .navbar-controller li a {
+        padding-right: 0px;
+        color: white;
+
+    }
+    .navbar-controller li a:hover{
+        color: #800080;
+        background-color: #333333;
+
+    }
+    /* .navbar-controller li a:first-child:active{
+        color: #FF5400;
+        background-color: #001f3f !important;
+    } */
+
 }

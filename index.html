@@ -16,8 +16,8 @@
     <header>
         <section>
             <div class="container">
-                <div class="header-controller">
-                    <div class="logo-side">
+                <div class="header-controller topnav">
+                    <div class="logo-side active">
                         <div class="logo">
                             <img src="Images/logo.png" alt="logo">
                         </div>
@@ -26,8 +26,10 @@
                         </div>
                     </div>
 
+                    
+
                     <nav>
-                        <div class="navbar-controller">
+                        <div class="navbar-controller" id="myLinks">
                             <ul>
                                 <li><a href="">Home</a></li>
                                 <li><a href="">Package</a></li>
@@ -36,7 +38,29 @@
                                 <li><a href="">Contact</a></li>
                             </ul>
                         </div>
+                          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
                     </nav>
+
+
+                    <nav>
+                        <div class="navbar-controller" id="custom-nav">
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Package</a></li>
+                                <li><a href="">Testimonial</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                    </nav>
+
 
                 </div>
             </div>
@@ -441,6 +465,6 @@
         </div>
     </section>
 
-    
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
